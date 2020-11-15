@@ -18,7 +18,7 @@ plot(datetime, voltage, type="l", xlab="datetime", ylab="Voltage")
 plot(datetime, sub_metering1, type="l", xlab="", ylab="Energy sub metering")
 lines(datetime, sub_metering2, type="l", col="red")
 lines(datetime, sub_metering3, type="l", col="blue")
-legend("topright", c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), lty=1, lwd=2)
+legend("topright", col = c("black", "red", "blue"), c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), lty=1, lwd=2)
 
 plot(datetime, grp, type="l", xlab="datetime", ylab="Global_reactive_power")
 
